@@ -9,6 +9,8 @@ if [ -x "$(command which brew)" ]; then
   alias bcinf='brew cask info'
   alias bcdr='brew cask doctor'
   alias bced='brew cask edit'
+  alias bcon='brew cask outdated'
+  alias bcog='brew cask outdated --greedy'
 
   alias bup='brew update && brew upgrade'
   alias bout='brew outdated'
