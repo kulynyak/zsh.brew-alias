@@ -2,6 +2,7 @@
 
 if [ -x "$(command which brew)" ]; then
   alias bcin='brew cask install'
+  alias bcrn='brew cask reinstall'
   alias bcrm='brew cask uninstall'
   alias bczp='brew cask zap'
   alias bccl='brew cask cleanup'
